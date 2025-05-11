@@ -1,0 +1,19 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+tf-env/
+
+# Ignore large files or model checkpoints
+*.keras
+*.h5
+
+# Ignore Streamlit logs
+.streamlit/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
