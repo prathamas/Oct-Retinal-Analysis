@@ -39,6 +39,15 @@ The model is based on **MobileNetV3**, fine-tuned on the **OCT2017 dataset**, wh
   - Beijing Tongren Eye Center, China
 
 ---
+# OCT Retinal Analysis Platform
+
+This project is a machine learning model for analyzing OCT retinal images.
+
+## Deployed App
+You can access the deployed application here: [OCT Retinal Analysis App](https://oct-retinal-analysis-qhswrqfmxagdu7zkpxrqy8.streamlit.app)
+
+## Description
+This platform helps in detecting retinal diseases from OCT scans.
 
 ## 🛠️ Setup Instructions
 
@@ -51,11 +60,11 @@ Make sure you have Python 3.7+ installed.
 ```bash
 pip install -r requirements.txt
 
-▶️ Run the App
+### ▶️ Run the App
 
 streamlit run app.py
 
-📁 Project Structure
+### 📁 Project Structure
 
 oct-retinal-analysis/
 │
@@ -64,7 +73,7 @@ oct-retinal-analysis/
 ├── requirements.txt
 └── README.md
 
-🙏 Acknowledgements
+### 🙏 Acknowledgements
 This project was developed with guidance from online tutorials and customized to fit a medical diagnostic use case.
 
 Based on a YouTube tutorial by ["SPOTLESS TECH"]
