@@ -1,0 +1,37 @@
+/* Custom button styling */
+.stButton>button {
+    border: 2px solid #4e4376;
+    border-radius: 20px;
+    color: white;
+    background-color: #2b5876;
+    padding: 10px 24px;
+    transition: all 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #4e4376;
+    color: white;
+    border: 2px solid #2b5876;
+}
+
+/* File uploader styling */
+.stFileUploader>div>div>div>div {
+    border: 2px dashed #4e4376 !important;
+    background: rgba(255,255,255,0.7) !important;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background: rgba(255,255,255,0.7);
+    border-radius: 10px 10px 0 0 !important;
+    padding: 10px 20px !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background: #2b5876 !important;
+    color: white !important;
+}
